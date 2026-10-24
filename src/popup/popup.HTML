@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Color Extractor</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      width: 280px;
+      margin: 0;
+      padding: 16px;
+      font: 14px Arial, sans-serif;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+
+    button {
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    #palette {
+      display: grid;
+      gap: 6px;
+      margin-top: 12px;
+      max-height: 300px;
+      overflow: auto;
+    }
+
+    .color-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .swatch {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #999;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Color Extractor</h1>
+  <button id="extract">Extract Colors</button>
+  <div id="palette"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

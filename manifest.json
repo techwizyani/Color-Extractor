@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Color Extractor",
+  "version": "0.1.0",
+  "description": "Extract rendered colors from the current webpage.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Color Extractor",
+    "default_popup": "src/popup/popup.HTML"
+  }
+}
